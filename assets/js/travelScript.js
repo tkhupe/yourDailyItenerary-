@@ -324,10 +324,12 @@ function handleRemoveItem(event) {
 // use event delegation on the `destinationListEL` to listen for click on any element with a class of `delete-item-btn`
 destinationUnorderedList.on('click', '.delete-item-btn', handleRemoveItem);
 
-        // $(".containerMd").addClass('hoverable');
-        $(".containerLg").addClass('#82b1ff blue accent-1');
+        $(".containerMd-2").addClass('hoverable');
+        $(".containerMd-3").addClass('z-depth-5 hoverable');
+        // $(".containerMd-3").addClass('#82b1ff blue accent-1');
         $(".containerLg").addClass('z-depth-5 hoverable');
         $(".input-field").addClass('blue lighten-1 pulse');
+        $('#depatureCard').append('#temp');
 
         const options = document.querySelectorAll('#recommendOptions option');
 

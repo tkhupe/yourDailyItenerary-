@@ -30,16 +30,19 @@ main {
     margin-right: auto;
 }
 
-.containerMd, .containerLg {
-    background-color:none;
+.containerMd {
+    background: (rgba(255, 255, 255, .2));
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    color: blue;
     flex: content;
     justify-content: center;
     text-align: center;
     padding: 0px 3px 0px 0px;
 }
 
-.containerMd {
-    width: 1.1fr;
+#cont-3 {
+    /* display: flex; */
+    /* width: 1.1fr; */
     
 }
 
@@ -49,7 +52,7 @@ main {
 
 
 .icon {
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .travelFormBox {
